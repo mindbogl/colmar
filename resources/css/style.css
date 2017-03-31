@@ -178,6 +178,47 @@ color:#444;
 padding-bottom: 2em;
 }
 
+
+/* Hero Mobile Section */
+@media only screen and (max-width: 760px) {
+#hero {
+  display: block;
+ }
+
+.img-container {
+display:block;
+max-width: 100%;
+margin: 0;
+margin-bottom:2em;
+}
+
+.hero-content{
+display: block;
+max-width:100%;
+padding:1em;
+}
+
+
+.hero-content h1{
+font-size:2.2em;
+font-family:"roboto";
+text-align: left;
+font-weight: bold;
+color:#444;
+}
+
+.button {
+  background-color: #4a4a4a;
+  color: white;
+  padding: .7em 3em;
+  width:70%;
+  text-align:center;
+  margin-bottom: 1em;
+   }
+
+}
+
+
 /* Posts Section */
 
 #columns {
@@ -267,6 +308,27 @@ background-color:#ccc;
 .read-more {
 color: #57a1be;
 font-size: .8em;
+}
+
+/* Mobile Posts Section */
+@media only screen and (max-width: 760px) {
+#columns {
+  display: block;
+  }
+  
+  .feature-content h2{
+  display:none;
+  }
+  
+   .feature-content p{
+  display:none;
+  }
+  
+    .feature-content cite{
+  display:none;
+  }
+
+
 }
 
 /* Courses Section */
@@ -401,111 +463,7 @@ padding: 2.5rem;
   }
 }
 
-/* Filters Section */
 
-#filters-section {
-  padding: 4rem 0%;
-  background-color: #4a4a4a;
-  justify-content:space-between;
-}
-
-#filters-section .content {
-  padding: 0 .625rem;
-  margin-bottom: 5rem;
-}
-
-#filters-section .content h2 {
-  font-size: 2.25rem;
-  font-weight: bold;
-  color: white;
-  font-family: "Roboto-Bold";
-  padding-bottom: 20px;
-}
-
-#filters-section .content h3 {
-  font-size: 1rem;
-  line-height: 1.4;
-  font-weight: 300;
-  color: white;
-}
-
-#filters-section .images-container {
-  display: flex;
-  max-width: 100%;
-  padding: 0 1%;
-}
-
-@media only screen and (max-width: 760px) {
-  #filters-section {
-    padding: 1.5rem 0 0 0;
-  }
-
-  #filters-section .content {
-    margin-bottom: 1rem;
-  }
-
-  #filters-section .content h2 {
-    padding-bottom: .625rem;
-    font-size: 1.125rem;
-    line-height: 1.3;
-    font-weight: normal;
-  }
-
-  #filters-section .content h3 {
-    font-size: .875rem;
-    line-height: 1.4;
-  }
-
-  #filters-section .images-container {
-    padding: 0;
-  }
-
-  #filters-section .extra {
-    display: none;
-  }
-}
-
-/* Quotes Section */
-
-#quotes-section {
-  background-color: #f3f3f3;
-  padding: 5rem 0;
-}
-
-
-.content-center {
-text-align: center;
-}
-
-.quote {
-  padding-right: 1.875rem;
-  font-family: "Palatino-Italic", serif;
-  font-size: 1.875rem;
-  line-height: 1.1;
-  font-style: italic;
-  color: #4a4a4a;
-}
-
-#quotes-section quote-citation {
-  height: 1.875rem;
-}
-
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
-    padding: 1.875rem .625rem;
-  }
-
-  #quotes-section quote {
-    font-size: 1.5rem;
-    line-height: 1.4;
-  }
-
-  #quotes-section quote-citation {
-    display: block;
-    padding-top: 1rem;
-    margin: auto;
-  }
-}
 
 /* Footer */
 
